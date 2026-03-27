@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(npx create-vite@latest . --template react)",
+      "Bash(npx create-vite@latest myapp --template react)",
+      "Bash(mv /Users/nideshkaarthikrs/MyDocuments/WebDev/ReactProjects/In-Class-Project-2/myapp/* /Users/nideshkaarthikrs/MyDocuments/WebDev/ReactProjects/In-Class-Project-2/)",
+      "Bash(mv /Users/nideshkaarthikrs/MyDocuments/WebDev/ReactProjects/In-Class-Project-2/myapp/.* /Users/nideshkaarthikrs/MyDocuments/WebDev/ReactProjects/In-Class-Project-2/)",
+      "Bash(rm -rf /Users/nideshkaarthikrs/MyDocuments/WebDev/ReactProjects/In-Class-Project-2/myapp)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
